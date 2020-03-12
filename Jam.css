@@ -102,8 +102,30 @@ h2{
     background-color:#AFFDE245;
     padding-left:600px;
     padding-right:600px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+#where {
+    background-image: url(img/map.gif);
+    height:600px;
+    display:block;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
     
     
+}
+.where1 {
+    color:#FF2CDF;
+    padding-top:30px
+}
+
+.where2 {
+    color:#FF2CDF ;
+    padding-left:1100px;
+    padding-top:40px;
+    font-weight: bold;
 }
 
 

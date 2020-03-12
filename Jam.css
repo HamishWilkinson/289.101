@@ -1,4 +1,4 @@
-*{outline: red 1px solid}
+
 
 body {
     background-color: #82DDB5;
@@ -45,10 +45,66 @@ body {
 }
 
 #what {
-    background-color: ;
-    background-position: center left right;
+    background-color:#AFFDE280;
+    background-position:center;
     margin-top: 500px;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 800px;
+    height:auto;
+    padding-left: 600px;
+    padding-right: 600px;
+    padding-top: 50px;
+    padding-bottom: 40px
+    
 }
+
+.what {
+    text-align: left;
+    font-size:1.2em;
+    font-weight: bold;
+    color:#00716F ;
+    
+}
+
+H1{
+    text-align: center;
+    font-weight: 1000;
+    color:#00716F ;
+}
+
+h2{
+    text-align: center;
+    font-weight: 1000;
+    color:#00716F ;
+}
+
+.left {
+    display:inline-block;
+    margin-left: 0px;
+    width:50%;
+}
+
+.right {
+    display:inline-block;
+    margin-right:0px;
+    
+}
+
+.why {
+    text-align: left;
+    font-weight: bold;
+    font-size:1.2em;
+    color:#00716F;
+}
+
+#why {
+    background-color:#AFFDE245;
+    padding-left:600px;
+    padding-right:600px;
+    
+    
+}
+
+
+

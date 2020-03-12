@@ -128,5 +128,13 @@ h2{
     font-weight: bold;
 }
 
+#when {
+    background-image: url(img/wires.png);
+    background-size:contain;
+    background-color:#03817395   
+}
 
+.when {
+    color:white;
+}
 

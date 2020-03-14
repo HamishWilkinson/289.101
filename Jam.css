@@ -36,12 +36,15 @@ body {
 .register_btn {
     background-color: #E43;
     border: 2px dashed #A43;
-    border-radius: 2m;
+    border-radius: 25px;
     color: #FFF;
     cursor: pointer;
     display: inline-block;
     font-weight: bold;
     margin-top: 25px;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
 }
 
 #what {
@@ -50,7 +53,7 @@ body {
     margin-top: 500px;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 700px;
     height:auto;
     padding-left: 600px;
     padding-right: 600px;
@@ -67,13 +70,14 @@ body {
     
 }
 
-H1{
+
+.h1-1 {
     text-align: center;
     font-weight: 1000;
     color:#00716F ;
 }
 
-h2{
+.h2-1 {
     text-align: center;
     font-weight: 1000;
     color:#00716F ;
@@ -108,33 +112,108 @@ h2{
 
 #where {
     background-image: url(img/map.gif);
-    height:600px;
+    height:710px;
     display:block;
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
+    padding-top: 20px
     
     
 }
 .where1 {
     color:#FF2CDF;
-    padding-top:30px
+    padding-top:30px;
+    text-align: center;
 }
 
 .where2 {
     color:#FF2CDF ;
-    padding-left:1100px;
-    padding-top:40px;
+    padding-right:570px;
+    padding-top:140px;
     font-weight: bold;
+    text-align: right;
 }
 
 #when {
     background-image: url(img/wires.png);
     background-size:contain;
-    background-color:#03817395   
+    background-color:#03455A85;
+    background-position: top;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.when {
-    color:white;
+.h1-2 {
+    text-align: center;
+    font-weight: 1000;
+    color: white;
 }
 
+.whitetext {
+    text-align: center;
+    color: white;
+}
+
+ul > li {
+    color: white;
+    text-align: left;
+    padding-left: 560px;
+    font-size: 1.2em;
+    list-style-position: inside;
+}
+
+.day {
+    color: white;
+    text-align: center;
+}
+
+#dotbox {
+    border-top: 3px dashed white;
+    padding-top: 30px;
+}
+
+#who {
+    background-color: white;
+    padding-top:20px;
+    padding-bottom:30px;
+}
+
+.who {
+    text-align: left;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 600px;
+    margin-right: 600px;
+    color: #00716F;
+    word-spacing: 4px;
+    line-height: 1.7;
+    font-size: 24px;
+}
+
+.who1 {
+    text-align: center;
+    color: #00716F;
+    font-weight: 1000;
+}
+
+.twitter {
+    display: inline-block;
+    padding-left: 750px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.facebook {
+    display: inline-block;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 30px;
+}
+
+.itch {
+    display: inline-block;
+    padding-right: 400px;
+    padding-bottom: 30px;
+}

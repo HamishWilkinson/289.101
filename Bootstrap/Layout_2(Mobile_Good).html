@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Layout 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        
+        <style>
+            * { outline: white 8px solid }
+            
+            .blue {
+                background-color: #3FB4FF;
+                height: 100px;
+            }
+            .green {
+                background-color: lime;
+                height: 100px;
+            }
+            .grey {
+                background-color: lightgray;
+                height: 200px;
+            }
+            .red {
+                background-color: maroon;
+                height: 250px;
+            }
+            /* xs devices */
+                body {background-color: red}
+            /* sm devices */
+            @media (min-width: 576px) {
+                body {background-color: orange}
+            }
+            /* md devices */
+            @media (min-width: 768px) {
+                body {background-color: yellow}
+                
+                .green {height: 200px}
+                
+                
+            }
+            /* lg devices */
+            @media (min-width: 992px) {
+                body {background-color: green}
+            }
+            /* xl devices */
+            @media (min-width: 1200px) {
+                body {background-color: blue}
+            }
+        </style>
+        
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 blue"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 green"></div>
+            </div>
+            <div class="row">
+                <div class="col-6 grey"></div>
+                <div class="col-6 grey"></div>
+                <div class="col-6 grey"></div>
+                <div class="col-6 grey"></div>
+                <div class="col-6 grey"></div>
+                <div class="col-6 grey"></div>
+            </div>
+            <div class="row">
+                <div class="col-12 red"></div>
+            </div>
+        </div>
+    </body>
+</html>

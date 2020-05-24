@@ -45,12 +45,18 @@
                 
                 .green {height: 200px}
                 .grey {height: 150px;}
-                
+                .red {height: auto;
+                      
                 
             }
             /* lg devices */
             @media (min-width: 992px) {
                 body {background-color: green}
+                
+                .green {height: auto;}
+                .red {height: auto;}
+                .pink {height: 150px;}
+                .grey {height: 140px;}
             }
             /* xl devices */
             @media (min-width: 1200px) {
@@ -62,35 +68,34 @@
     </head>
     <body>
         <div class="container-fluid">
+            
             <div class="row">
                 <div class="col-12 blue"></div>
             </div>
-            <div class="row">
-                <div class="col-12 green"></div>
-            </div>
-            <div class="row">
-                <div class="col-12 orange">
-                    <div class="row">
-                        <div class="col-6 grey"></div>
-                        <div class="col-6 grey"></div>
-                        <div class="col-6 grey"></div>
-                        <div class="col-6 grey"></div>
-                        <div class="col-6 grey"></div>
-                        <div class="col-6 grey"></div>
-                    </div>
-                    <div class="row">
-                        <div class="d-none d-md-block col-4 pink"></div>  
-                        <div class="d-none d-md-block col-4 pink"></div>
-                        <div class="d-none d-md-block col-4 pink"></div>
-                        <div class="d-none d-md-block col-4 pink"></div>
-                        <div class="d-none d-md-block col-4 pink"></div>
-                        <div class="d-none d-md-block col-4 pink"></div>
-                    </div>
-                </div>
-            </div>
             
             <div class="row">
-                <div class="col-12 red"></div>
+                <div class="col-12 col-lg-3 green"></div>
+
+                <div class="col-12 col-md-6 col-lg-6 orange">
+                    <div class="row">
+                        <div class="col-6 col-lg-3 grey"></div>
+                        <div class="col-6 col-lg-3 grey"></div>
+                        <div class="col-6 col-lg-3 grey"></div>
+                        <div class="col-6 col-lg-3 grey"></div>
+                        <div class="col-6 col-lg-3 grey"></div>
+                        <div class="col-6 col-lg-3 grey"></div>
+                    </div>
+                    <div class="row">
+                        <div class="d-none d-md-block col-9 offset-lg-4 pink"></div>  
+                        <div class="d-none d-md-block col-9 offset-lg-4 pink"></div>
+                        <div class="d-none d-md-block col-9 offset-lg-4 pink"></div>
+                        <div class="d-none d-md-block col-9 offset-lg-4 pink"></div>
+                        <div class="d-none d-md-block col-9 offset-lg-4 pink"></div>
+                        <div class="d-none d-md-block col-9 offset-lg-4 pink"></div>
+                    </div>
+                </div>
+        
+                <div class="col-12 col-md-6 col-lg-3 red"></div>
             </div>
         </div>
     </body>

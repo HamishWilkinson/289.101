@@ -52,13 +52,13 @@
     <div id="controls">
         <a id="eyes_up_btn">move eyes up</a>
         <a id="eyes_down_btn">move eyes down</a>
-        <a>move eyes closer together</a>
-        <a>move eyes further apart</a>
+        <a id="eyes_closer_btn">move eyes closer together</a>
+        <a id="eyes_further_btn">move eyes further apart</a>
         <a>hollow eyes</a>
         <a>solid eyes</a>
         <a>no right eye</a>
         <a id="mouth_up_btn">move mouth up</a>
-        <a>move mouth down</a>
+        <a id="mouth_down_btn">move mouth down</a>
         <a>happy mouth</a>
         <a>sad mouth</a>
         <a>reset face</a>
@@ -111,6 +111,29 @@
             mouth_y -= 10;
             document.getElementById('mouth').style.top = mouth_y + 'px';
         });
+        
+        // move mouth down event listener
+        document.getElementById('mouth_down_btn').addEventListener('click', function() {
+            mouth_y += 10;
+            document.getElementById('mouth').style.top = mouth_y + 'px';
+        });
+        
+        // move eyes closer together event listener
+        document.getElementById('eyes_closer_btn').addEventListener('click', function() {
+            eye_left_x += 10;
+            document.getElementById('eye_left').style.top = eye_left_x + 'px';
+            eye_right_x -= 10;
+            document.getElementById('eye_right').style.top = eye_right_x + 'px';
+        });
+        
+        // move eyes further apart event listener
+        document.getElementById('eyes_further_btn').addEventListener('click', function() {
+            eye_left_x -= 10;
+            document.getElementById('eye_left').style.top = eye_left_x + 'px';
+            eye_right_x +=10;
+            document.getElementById('eye_right').style.top = eye_left + 'px';
+        });
+        
     </script>
 
 </body>

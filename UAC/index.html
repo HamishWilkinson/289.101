@@ -3,16 +3,68 @@
     <head>
         <meta charset="utf-8">
         <title>UAC Homepage</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        
+        <style>
+             * {outline: red 2px dotted} 
+            
+            .body {
+                background-image: url(img/etienne-martin-v6uiP2MD6vs-unsplash.jpg);
+            }
+            
+            .top {
+                background-image: url(img/etienne-martin-v6uiP2MD6vs-unsplash.jpg);
+                z-index: -3;
+            }
+            
+            .header {
+                background-color: #2b2b2b;
+                height: 130px;
+                margin: 0;
+            }
+
+            .logo {
+                padding-left: 100;
+                z-index: 2;
+            } 
+            
+            .container {
+                margin-top: 50px;
+                padding-bottom: 20px;
+            }
+            .DarkGrey {
+                background-color: #0d0d0d;
+            }
+            
+            .headerbottombar {
+                background-color: #2b2b2b;
+                height: 20px;
+            }
+            
+        </style>
+        
+        
     </head>
     <body>
         
+    <div class="Top">
         <div class="header">
-            <div class="logo">
-                <img src="img/UAC_Logo_T1Border.png" alt="UAC Logo" width="200">
+                <div class="logo">
+                    <img src="img/UAC_Logo_T2.png" alt="UAC Logo" width="200">
+                </div>
             </div>
-            <div class="headerbottom"></div>
-        </div>
-    
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3"> <button class="btn btn-dark btn-block">About</button></div>
+                        <div class="col-sm-12 col-md-6 col-lg-3"> <button class="btn btn-dark btn-block">Inventory</button></div>
+                        <div class="col-sm-12 col-md-6 col-lg-3"> <button class="btn btn-dark btn-block">Locations</button></div>
+                        <div class="col-sm-12 col-md-6 col-lg-3"> <button class="btn btn-dark btn-block">Contact</button></div>
+                    </div>
+                </div>
+            <div class="headerbottombar"></div>
+</div>
+
     </body>
 </html>

@@ -90,3 +90,21 @@
 #About {
     background-image: url(img/c7afab63cd23e66196964c56e723f2cc.jpg);
 }
+
+.textAbout {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#locations img {
+    text-align: right;
+}
+
+#Locations {
+    padding-left: 10px;
+    background-image:url(img/c7afab63cd23e66196964c56e723f2cc.jpg);
+}
+
+#LocationsTitle {
+    text-align: center;
+}

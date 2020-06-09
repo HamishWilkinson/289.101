@@ -1,3 +1,12 @@
+.body {
+    background-image: url(img/etienne-martin-v6uiP2MD6vs-unsplash.jpg);
+}
+
+.top {
+    background-image: url(img/etienne-martin-v6uiP2MD6vs-unsplash.jpg);
+    z-index: -3;
+    background-size: contain;
+}
 
 .header {
     background-color: #2b2b2b;
@@ -7,10 +16,77 @@
 
 .logo {
     padding-left: 100;
+    z-index: 2;
+} 
+
+.container {
+    margin-top: 63px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-image: url(img/4682148161_ee4ac2aa8f_b.jpg);
+    max-width: 100vw;
+}
+.DarkGrey {
+    background-color: #0d0d0d;
 }
 
-.headerbottom {
+.headerbottombar {
     background-color: #2b2b2b;
-    height: 60px;
-    margin: 0;
+    height: 20px;
+}
+
+.headermiddlebar {
+    background-color: #2b2b2b;
+    height: 20px;
+}
+
+#Frontimage {
+    height: 200px;
+    max-width: 100vw;
+    background-image: url(img/739702.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.bar {
+    background-color: #2b2b2b;
+    height: 20px;
+}
+
+.logodisplay {
+    background-image:url(img/background-grey-grain-fade.jpg);
+}
+
+.logodisplay img {
+    margin: auto;
+    display: block;
+}
+            
+.photogridContainer {
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.photogridContainer img {
+    display: block;
+    margin: 0 auto;
+}
+
+#Inventory {
+    background-image: url(img/c7afab63cd23e66196964c56e723f2cc.jpg);
+}
+
+#InventoryTitle {
+    text-align: center;
+}
+
+#AboutTitle {
+    text-align: center;
+}
+
+#About {
+    background-image: url(img/c7afab63cd23e66196964c56e723f2cc.jpg);
 }

@@ -6,12 +6,11 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="Styles.css">
         <link rel="icon" href="img/UAC_Logo_T2.png">
+        <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         
-        
-        <style>
-            /* * {outline: red 2px dotted}     
-        </style>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         
         
     </head>
@@ -20,7 +19,7 @@
     <div class="Top">
         <div class="header">
                 <div class="logo">
-                    <img src="img/UAC_Logo_T1Border.png" alt="UAC Logo" width="200">
+                    <img src="img/UAC_Logo_T1Border.png" alt="UAC Logo" width="200px">
                 </div>
             
                  <div class="headermiddlebar"></div>
@@ -30,13 +29,13 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-3"> <a href="#About" class="btn btn-dark btn-block">About</a></div>
                         <div class="col-sm-12 col-md-6 col-lg-3"> <a href="#Inventory" class="btn btn-dark btn-block">Inventory</a></div>
-                        <div class="col-sm-12 col-md-6 col-lg-3"> <a href="#" class="btn btn-dark btn-block">Locations</a></div>
-                        <div class="col-sm-12 col-md-6 col-lg-3"> <a href="#" class="btn btn-dark btn-block">Contact</a></div>
+                        <div class="col-sm-12 col-md-6 col-lg-3"> <a href="#Locations" class="btn btn-dark btn-block">Locations</a></div>
+                        <div class="col-sm-12 col-md-6 col-lg-3"> <a href="#Contact" class="btn btn-dark btn-block">Contact</a></div>
                     </div>
                 </div>
             <div class="headerbottombar"></div>
     </div>
-        <div id="Frontimage">
+        <div class="Frontimage">
 
         </div>
         
@@ -77,45 +76,45 @@
                 
                     <div class="photogridContainer">
                         <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-md-12 col-lg-4">
                                 <img style="border: 10px solid #2b2b2b;" src="img/Pistol.png" width="300px">
                                     <p>The standard issue UAC Pistol</p>
                                 </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-md-12 col-lg-4">
                                 <img style="border: 10px solid #2b2b2b;" src="img/73-738216_d4-escopeta-doom-2016-combat-shotgun-explosive-shot.png" width="300px">
                                      <p>UAC Standard Shotgun</p>
                                 </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-md-12 col-lg-4">
                                 <img style="border: 10px solid #2b2b2b;" src="img/ddv76wo-457cb177-d51c-44aa-89e9-5539ab6c3fcf.png" width="300px">
                                     <p>UAC Super Shotgun. Favoured by marines for close-quarters combat.</p>
                                 </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-md-12 col-lg-4">
                                 <img style="border: 10px solid #2b2b2b;" src="img/efd5a56e8c59000d45bdeb0b28e10a9e.jpg" width="300px">
                                     <p>UAC Heavy Assault Rifle</p>
                                 </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-md-12 col-lg-4">
                                 <img style="border: 10px solid #2b2b2b;" src="img/chaingun.png" width="300px">
                                     <p>UAC Chaingun</p>
                                 </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-md-12 col-lg-4">
                                 <img style="border: 10px solid #2b2b2b;" src="img/plasmarifle.jpg" width="300px">
                                     <p>UAC Plasma Rifle. Standard gun of choice for patrols</p>
                                 </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-md-12 col-lg-4">
                                 <img style="border: 10px solid #2b2b2b;" src="img/Gauss.png" width="300px">
                                     <p>UAC Gauss Cannon. Highly specialized long range weapon.</p>
                                 </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-md-12 col-lg-4">
                                 <img style="border: 10px solid #2b2b2b;" src="img/Rocket.png" width="300px">
                                     <p>UAC Rocket Launcher</p>
                                 </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-md-12 col-lg-4">
                                 <img style="border: 10px solid #2b2b2b;" src="img/BFG.png" width="300px">
-                                    <p>UAC Big F*cking Gun (BFG). UAC's most powerful weapon.</p>
+                                    <p>UAC BFG 9000. UAC's most powerful weapon.</p>
                                 </div>
                             </div>
                         </div>
@@ -125,35 +124,85 @@
             <h1 id="LocationsTitle">Locations</h1>
             <br>
             <br>
-            <h2>Earth</h2>
+            <h2><u>Earth</u></h2>
             
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <img style="border:5px solid #2b2b2b;"src="img/Earth.jpg" width="200px">
-                            <p>Earth</p>
+                            <br>
+                            <button data-toggle="collapse" data-target="#EarthDesc" class="btn btn-dark btn-block">Earth</button>
+                                <div id="EarthDesc" class="collapse">
+                                    UAC has multiple facilities located on Earth, many of which are freight hubs for transit to Mars.
+                                </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <img style="border:5px solid #2b2b2b;"src="img/Moon.jpg" width="200px">
-                            <p>Luna</p>
+                            <br>
+                            <button data-toggle="collapse" data-target="#LunaDesc" class="btn btn-dark btn-block">Luna</button>
+                                <div id="LunaDesc" class="collapse">
+                                    UAC has a large docking and refuelling complex on Luna.
+                                </div>
                     </div>
                     </div>
             <br>
             <br>
-            <h2>Mars</h2>
-                    <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+            <h2><u>Mars</u></h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
                         <img style="border:5px solid #2b2b2b;"src="img/Mars.jpg" width="200px">
-                            <p>Mars</p>
+                            <br>
+                            <button data-toggle="collapse" data-target="#MarsDesc" class="btn btn-dark btn-block">Mars</button>
+                                <div id="MarsDesc" class="collapse">
+                                    UAC is the main financer for Mars City. Mars City is home to 6000 people, made up of mostly scientists and researchers. There are 20,000 Robot workers. UAC also owns 6 argent plasma extraction plants and 3 processing plants on Mars.
+                                </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
                         <img style="border:5px solid #2b2b2b;"src="img/Phobos.jpg" width="200px">
-                            <p>Phobos</p>
+                            <br>
+                            <button data-toggle="collapse" data-target="#PhobosDesc" class="btn btn-dark btn-block">Phobos</button>
+                                <div id="PhobosDesc" class="collapse">
+                                    UAC has 2 observation outposts and 1 scientific research facility on Phobos.
+                                </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
                         <img style="border:5px solid #2b2b2b;"src="img/Deimos.jpg" width="200px">
-                            <p>Deimos</p>
+                            <br>
+                            <button data-toggle="collapse" data-target="#DeimosDesc" class="btn btn-dark btn-block">Deimos</button>
+                                <div id="DeimosDesc" class="collapse">
+                                    UAC has a military testing facility on Deimos, as well as 2 military research facilities.
+                                </div>
                     </div>
                     </div>
         </div>
+        <div class="bar"></div>
+            <div id="Contact">
+                <h1 class="ContactTitle">Contact Us</h1>
+                    <p class="ContactBlurb">We offer competitively priced, state-of-the-art private defence packages that can be custom tailored to fit your needs. UAC strives to provide a safe work environment for everyone, specialising in quick and effective deterance mechanisms.</p>
+                    <p class="ContactBlurb">We also offer smart energy transfer plans for those times when the city grid just isn't enough.</p>
+                
+                <i class="fas fa-envelope"></i> <h2>Email Us</h2>
+                    <p>For Business inquiries contact: <a class="ContactLink" href="mailto: Business@UAC.com">Business@UAC.com</a></p>
+                        <br>
+                    <p>For Helpdesk Support contact: <a class="ContactLink" href="mailto: Support@UAC.com">Support@UAC.com</a></p>
+                        <br>
+                        <br>
+                <i class="fas fa-phone"></i> <h2>Phone Us</h2>
+                    <p>For Business inquiries contact: <a class="ContactLink" href="#">0900-822-2378</a></p>
+                        <br>
+                    <p>For Helpdesk Support contact: <a class="ContactLink" href="#">0900-822-4357</a></p>
+                        <br>
+                        <br>
+                <i class="fas fa-globe"></i> <h2>Opening Hours</h2>
+                    <p>Our Research and Development HQ located at 347 Martian Boulevard, Warm Springs, Nevada, is open from:
+                    <a class="ContactLink" href="#">6am-5pm Mon-Fri</a></p>
+                        <br>
+                    <p>Our Freight HQ located at 112 Ironrun Road, Augusta, Georgia, is open from:
+                    <a class="ContactLink" href="#">4am-9pm Everyday</a></p>
+                        <br>
+                        <br>
+                    
+                    
+            </div>
+            <div class="bar"></div>
     </body>
 </html>
